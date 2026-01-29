@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+/coverage
+/lib-cov
+
+# Testing
+/test_*/
+/*.tap
+/.nyc_output
+/.cache
+/npm-debug.log*
+yarn-error.log*
+yarn.lock.pm
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and OS files
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vspigs
+.idea
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/dist
+/build
